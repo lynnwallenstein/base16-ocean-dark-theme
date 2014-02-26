@@ -11,7 +11,7 @@
   "engines": {
     "atom": ">0.49.0"
   },
-  "readme": "# Tomorrow Dark Syntax theme\n\nAtom theme using the ever popular [base16][base16] ocean dark colors.\n\nThis theme can be activated by going to\nthe _Themes_ section in the Settings view (`cmd-,`) and selecting it from the\n_Syntax Themes_ drop-down menu.\n\n![](NEED PICATURE)\n\n[base16]: https://github.com/chriskempson/base16\n",
+  "readme": "# Tomorrow Dark Syntax theme\n\nAtom theme using the ever popular [base16][base16] ocean dark colors.\n\nThis theme can be activated by going to\nthe _Themes_ section in the Settings view (`cmd-,`) and selecting it from the\n_Syntax Themes_ drop-down menu.\n\n![](https://github.com/lynnwallenstein/base16-ocean-dark-theme/blob/master/sample-screenshot.png?raw=true)\n\n[base16]: https://github.com/chriskempson/base16\n",
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/lynnwallenstein/base16-ocean-dark-theme/issues"
