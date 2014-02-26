@@ -8,4 +8,4 @@ _Syntax Themes_ drop-down menu.
 
 ![](https://github.com/lynnwallenstein/base16-ocean-dark-theme/blob/master/sample-screenshot.png?raw=true)
 
-[base16]: https://github.com/chriskempson/base16
+[base16]: http://chriskempson.github.io/base16/#ocean
