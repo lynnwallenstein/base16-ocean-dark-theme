@@ -1,9 +1,9 @@
 {
   "name": "syntax-theme-base16-ocean",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "1.0",
   "private": true,
-  "description": "Based on Base16 Ocean - http://chriskempson.github.io/base16/#ocean",
+  "description": "Syntax Theme Based on Base16 Ocean - http://chriskempson.github.io/base16/#ocean",
   "repository": "https://github.com/atom/syntax-theme-base16-ocean",
   "license": "MIT",
   "engines": {
