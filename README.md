@@ -4,6 +4,8 @@ Atom theme using the ever popular [base16][base16] ocean colors.
 
 Looks best with [Spacegray][spacegray-atom] UI theme (used in screenshot).
 
+Font used is [Source Code Pro][source-code-pro]
+
 To use check out this repo to your ~/.atom/packages directory and restart atom.
 
 This theme is can be activated by going to
@@ -14,3 +16,4 @@ _Syntax Themes_ drop-down menu.
 
 [base16]: http://chriskempson.github.io/base16/#ocean
 [spacegray-atom]: https://github.com/lynnwallenstein/atom-spacegray
+[source-code-pro]: http://www.google.com/fonts/specimen/Source+Code+Pro
