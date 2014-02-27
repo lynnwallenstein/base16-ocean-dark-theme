@@ -1,23 +1,23 @@
 {
-  "name": "base16-ocean-dark-theme",
+  "name": "syntax-theme-base16-ocean",
   "theme": "syntax",
   "version": "0.1.0",
-  "description": "Base16 Ocean Dark theme for Atom",
+  "description": "Base16 Ocean Syntax theme for Atom",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lynnwallenstein/base16-ocean-dark-theme"
+    "url": "https://github.com/lynnwallenstein/syntax-theme-base16-ocean"
   },
   "license": "MIT",
   "engines": {
     "atom": ">0.49.0"
   },
-  "readme": "# Tomorrow Dark Syntax theme\n\nAtom theme using the ever popular [base16][base16] ocean dark colors.\n\nThis theme can be activated by going to\nthe _Themes_ section in the Settings view (`cmd-,`) and selecting it from the\n_Syntax Themes_ drop-down menu.\n\n![](https://github.com/lynnwallenstein/base16-ocean-dark-theme/blob/master/sample-screenshot.png?raw=true)\n\n[base16]: https://github.com/chriskempson/base16\n",
+  "readme": "# Base16 Ocean Syntax theme\n\nAtom theme using the ever popular [base16][base16] ocean dark colors.\n\nThis theme can be activated by going to\nthe _Themes_ section in the Settings view (`cmd-,`) and selecting it from the\n_Syntax Themes_ drop-down menu.\n\n![](https://github.com/lynnwallenstein/base16-ocean-dark-theme/blob/master/sample-screenshot.png?raw=true)\n\n[base16]: https://github.com/chriskempson/base16\n",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/lynnwallenstein/base16-ocean-dark-theme/issues"
+    "url": "https://github.com/lynnwallenstein/syntax-theme-base16-ocean/issues"
   },
-  "homepage": "https://github.com/lynnwallenstein/base16-ocean-dark-theme",
-  "_id": "base16-ocean-dark-theme@0.1.0",
+  "homepage": "https://github.com/lynnwallenstein/syntax-theme-base16-ocean",
+  "_id": "syntax-theme-base16-ocean@0.1.0",
   "dist": {
     "shasum": "0cddf69d7ce44901b4bdc43b7b3f8a34f1c61258"
   },

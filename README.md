@@ -1,8 +1,8 @@
-# Base 16 Ocean Dark Syntax theme
+# Base 16 Ocean Syntax theme
 
 Atom theme using the ever popular [base16][base16] ocean colors.
 
-Looks best with [Spacegray][spacegray-atom] UI theme (used in screenshot).
+Looks best with [Atom Base16 Ocean UI Theme][base16-ocean-atom] UI theme (used in screenshot).
 
 Font used is [Source Code Pro][source-code-pro]
 
@@ -15,5 +15,5 @@ _Syntax Themes_ drop-down menu.
 ![](https://github.com/lynnwallenstein/base16-ocean-dark-theme/blob/master/sample-screenshot.png?raw=true)
 
 [base16]: http://chriskempson.github.io/base16/#ocean
-[spacegray-atom]: https://github.com/lynnwallenstein/atom-spacegray
+[base16-ocean-atom]: https://github.com/lynnwallenstein/atom-base16-ocean
 [source-code-pro]: http://www.google.com/fonts/specimen/Source+Code+Pro
