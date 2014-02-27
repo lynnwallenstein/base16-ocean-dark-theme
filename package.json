@@ -1,7 +1,7 @@
 {
   "name": "syntax-theme-base16-ocean",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "1.0",
   "description": "Base16 Ocean Syntax theme for Atom",
   "repository": {
     "type": "git",
