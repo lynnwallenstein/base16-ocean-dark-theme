@@ -1,114 +1,306 @@
-// The ui-variables file is provided by base themes provided by Atom.
-//
-// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
-// for a full listing of what's available.
-@import "ui-variables";
-@import "colors";
+// ------------------------------------------------------------------
+// Base
+// ------------------------------------------------------------------
 
 .editor-colors {
-  background-color: @base03;
-  color: @base0;
+  background-color: @base16-02;
+  color: @base16-07;
 }
 
 .editor {
+  background-color: @base16-00;
+  color: @base16-07;
+
   .invisible-character,
   .indent-guide {
-    color: @base01;
+    color: @base16-01;
   }
 
   .gutter {
-    background-color: @base02;
-  }
+    background-color: @base16-00;
 
-  .gutter .line-number {
-    opacity: 1;
+    .line-number {
+      padding: 0 0.25em 0 0.5em;
+
+      &.cursor-line-no-selection {
+        color: @base16-gray-light-ui;
+      }
+
+    } // .line-number
+
+  } // .gutter
+
+  .cursor-line {
+    background-color: @base16-01;
+    color: @base16-07;
   }
 
   .gutter .line-number.folded,
   .gutter .line-number:after,
   .fold-marker:after {
-    color: @magenta;
+    color: @base16-03;
+  }
+
+  .invisible {
+    color: @base16-05;
   }
 
   .cursor {
-    border-color: @base3;
+    color: @base16-05;
   }
 
   .selection .region {
-    background-color: @base01;
-    color: @base03;
+    background-color: lighten(@base16-00, 10%);
   }
+} // .editor
 
-  .line-number.cursor-line-no-selection {
-    background-color: @base01;
-  }
+.editor .search-results .marker .region {
+  background-color: transparent;
+  border: 1px solid @base16-03;
 }
 
-.bracket-matcher {
-  background-color: @base1;
-  opacity: 0.7;
+.editor .search-results .marker.current-result .region {
+  border: 1px solid #fff;
 }
 
 .comment {
-  color: @base01;
-  font-style: italic;
+  color: @base16-03;
 }
 
 .entity {
-  color: @yellow;
+
+  &.name.type {
+    color: @base16-0A;
+    text-decoration: underline;
+  }
+
+  &.other.inherited-class {
+    color: @base16-0B;
+  }
 }
 
 .keyword {
-  color: @green;
+  color: @base16-0E;
+
+  &.control {
+    color: @base16-0E;
+  }
+
+  &.operator {
+    color: @base16-05;
+  }
+
+  &.other.special-method {
+    color: @base16-0D;
+  }
+
+  &.other.unit {
+    color: @base16-09;
+  }
 }
 
-.storage.type {
-  color: @green;
+.storage {
+  color: @base16-0E;
 }
 
 .constant {
-  color: @yellow;
+  color: @base16-09;
 
-  &.numeric,
-  &.boolean {
-    color: @cyan;
+  &.character.escape {
+    color: @base16-0C;
+  }
+
+  &.numeric {
+    color: @base16-09;
+  }
+
+  &.other.color {
+    color: @base16-0C;
+  }
+
+  &.other.symbol {
+    color: @base16-0B;
   }
 }
 
 .variable {
-  color: @blue;
-}
+  color: @base16-08;
 
-.delimiter, .brace {
-  color: @red;
-}
+  &.interpolation {
+    color: @base16-0F;
+  }
 
-.delimiter.period {
-  color: @green;
-}
-
-.invalid.deprecated {
-  text-decoration: underline;
-  color: @red;
+  &.parameter.function {
+    color: @base16-05;
+  }
 }
 
 .invalid.illegal {
-  color: @red;
+  background-color: @base16-08;
+  color: @base16-00;
 }
 
 .string {
-  color: @cyan;
+  color: @base16-0B;
 
-  .constant.character.escape {
-    color: @red;
-  }
 
   &.regexp {
-    color: @cyan;
+    color: @base16-0C;
 
-    .source.ruby.embedded,
-    .string.regexp.arbitrary-repitition {
-      color: @red;
+    .source.ruby.embedded {
+      color: @base16-09;
     }
   }
+
+  &.other.link {
+    color: @base16-08;
+  }
+}
+
+.punctuation {
+
+  &.definition {
+    &.comment {
+      color: @base16-03;
+    }
+
+    &.string,
+    &.variable,
+    &.parameters,
+    &.array {
+      color: @base16-05;
+    }
+
+    &.heading,
+    &.identity {
+      color: @base16-0D;
+    }
+
+    &.bold {
+      color: @base16-0A;
+      font-style: bold;
+    }
+
+    &.italic {
+      color: @base16-0E;
+      font-style: italic;
+    }
+  }
+
+  &.section.embedded {
+    color: @base16-0F;
+  }
+
+}
+
+.support {
+  &.class {
+    color: @base16-0A;
+  }
+
+  &.function  {
+    color: @base16-0C;
+
+    &.any-method {
+      color: @base16-0D;
+    }
+  }
+}
+
+.entity {
+
+  &.name.function {
+    color: @base16-0D;
+  }
+
+  &.name.class, &.name.type.class {
+    color: @base16-0A;
+  }
+
+  &.name.section {
+    color: @base16-0D;
+  }
+
+  &.name.tag {
+    color: @base16-08;
+  }
+
+  &.other.attribute-name {
+    color: @base16-09;
+
+    &.id {
+      color: @base16-0D;
+    }
+  }
+}
+
+.meta {
+  &.class {
+    color: @base16-0A;
+  }
+
+  &.link {
+    color: @base16-09;
+  }
+
+  &.require {
+    color: @base16-0D;
+  }
+
+  &.selector {
+    color: @base16-0E;
+  }
+
+  &.separator {
+    background-color: @base16-00;
+    color: @base16-05;
+  }
+}
+
+.none {
+  color: @base16-05;
+}
+
+.markup {
+  &.bold {
+    color: @base16-09;
+    font-style: bold;
+  }
+
+  &.changed {
+    color: @base16-0E;
+  }
+
+  &.deleted {
+    color: @base16-08;
+  }
+
+  &.italic {
+    color: @base16-0E;
+    font-style: italic;
+  }
+
+  &.heading .punctuation.definition.heading {
+    color: @base16-0D;
+  }
+
+  &.inserted {
+    color: @base16-0B;
+  }
+
+  &.list {
+    color: @base16-08;
+  }
+
+  &.quote {
+    color: @base16-09;
+  }
+
+  &.raw.inline {
+    color: @base16-0B;
+  }
+}
+
+.editor.mini .scroll-view {
+  padding-left: 1px;
 }
